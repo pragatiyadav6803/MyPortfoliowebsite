@@ -4,6 +4,8 @@
 <title>My Page</title>
 
 <style>
+  
+</style>
 h1{
 color: blue;
 text-align: center;
