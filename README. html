@@ -1,22 +1,116 @@
-<!DOCTYPE html>
-<html>
+ <!DOCTYPE html>
+<html lang="en">
 <head>
-<title>My Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pragati Kakasaheb Yadav Portfolio</title>
 
-<style>
-  
-</style>
-h1{
-color: blue;
-text-align: center;
-}
-</style>
+    <!-- CSS style -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f4f8;
+            line-height: 1.6;
+        }
 
+        header {
+            background-color: #1a237e;
+            color: white;
+            text-align: center;
+            padding: 30px 10px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        h2 {
+            color: #1a237e;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 8px gray;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #1a237e;
+            color: white;
+            padding: 15px;
+        }
+    </style>
 </head>
 
 <body>
 
-<h1>Hello World</h1>
+<header>
+    <h1>Pragati Kakasaheb Yadav</h1>
+    <p>Diploma Student (Artificial Intelligence & Machine Learning)</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        Hello! I am Pragati Kakasaheb Yadav. I completed my schooling from Sri Ravi Shankar Vidya Mandir, Karjat with 85%.
+        Currently, I am pursuing a Diploma in Artificial Intelligence and Machine Learning from Phalke Patil College of Engineering, Karjat.
+        I have passed my first semester with 80.35% and now I am in the second semester.
+    </p>
+</section>
+
+<section>
+    <h2>Education</h2>
+    <ul>
+        <li>Diploma in AI & ML - Phalke Patil College of Engineering (First Year, Second Semester)</li>
+        <li>SSC - 85% (Sri Ravi Shankar Vidya Mandir, Karjat)</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Family Details</h2>
+    <ul>
+        <li>Mother: Sonali Kakasaheb Yadav</li>
+        <li>Father: Kakasaheb Popat Yadav</li>
+        <li>Brother: Atharv Kakasaheb Yadav</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML & CSS</li>
+        <li>Basic Programming</li>
+        <li>Computer Fundamentals</li>
+        <li>AI & ML Basics</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Hobbies</h2>
+    <p>
+        I enjoy learning new things, especially working on a laptop. I also like reading, writing, and swimming which keeps me active and refreshed.
+    </p>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: pragati@example.com</p>
+    <p>Phone: +91 XXXXX XXXXX</p>
+</section>
+
+<footer>
+    <p>© 2026 Pragati Kakasaheb Yadav</p>
+</footer>
 
 </body>
-</html>        
+</html>     
