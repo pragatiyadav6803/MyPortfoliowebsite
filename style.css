@@ -1,47 +1,78 @@
+/* General */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f0f4f8, #e0f7fa);
+    line-height: 1.6;
 }
 
+/* Header */
 header {
-    background-color: #4CAF50;
+    background-color: #1a237e;
     color: white;
-    padding: 20px;
     text-align: center;
+    padding: 40px 10px;
 }
 
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1.1em;
+}
+
+/* Navigation */
 nav {
-    background-color: #333;
+    background-color: #3949ab;
     text-align: center;
-    padding: 10px;
+    padding: 12px 0;
 }
 
 nav a {
     color: white;
-    margin: 10px;
+    margin: 10px 15px;
     text-decoration: none;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 nav a:hover {
-    color: #4CAF50;
+    color: #ffeb3b;
 }
 
+/* Sections */
 section {
-    padding: 20px;
-    margin: 10px;
     background-color: white;
-    border-radius: 8px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 h2 {
-    color: #4CAF50;
+    color: #1a237e;
+    border-bottom: 2px solid #1a237e;
+    padding-bottom: 5px;
 }
 
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Footer */
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #333;
+    background-color: #1a237e;
     color: white;
+    padding: 15px;
+}
+
+/* Hover effect on sections */
+section:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
 }
